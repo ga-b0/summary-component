@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="card">
+    <div class="card__puntuation">
+      <p class="card__result card--gray">Your Result</p>
+      <div class="card__circle">
+        <h1 class="card__number card--white">76</h1>
+        <p class="card__subnumber card--gray">of 100</p>     
+      </div>
+      <div class="card__texts">
+        <h2 class="card__subtitle card--white">Great</h2>
+        <p class="card__paragraph card--gray">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="card__summary">
+      <h3 class="summary__title">Summary</h3>
+      <ul class="summary__items">
+        <li class="summary__item summary--reaction">
+          <img src="assets/images/icon-reaction.svg" class="summary__icon" alt="">
+          <p class="summary__tipe--reaction">Reaction <span class="summary__percent"><span class="summary__percent--first">80</span> <span class="summary__percent--second">/ 100</span></span></p>
+        </li>
+        <li class="summary__item summary--memory">
+          <img src="assets/images/icon-memory.svg" class="summary__icon" alt="">
+          <p class="summary__tipe--memory">Memory <span class="summary__percent"><span class="summary__percent--first">92</span> <span class="summary__percent--second">/ 100</span></span></p>
+        </li>
+        <li class="summary__item summary--verbal">
+          <img src="assets/images/icon-verbal.svg" class="summary__icon" alt="">
+          <p class="summary__tipe--verbal">Verbal <span class="summary__percent"><span class="summary__percent--first">61</span> <span class="summary__percent--second">/ 100</span></span></p>
+        </li>
+        <li class="summary__item summary--visual">
+          <img src="assets/images/icon-visual.svg" class="summary__icon" alt="">
+          <p class="summary__tipe--visual">Visual <span class="summary__percent"><span class="summary__percent--first">72</span> <span class="summary__percent--second">/ 100</span></span></p>
+        </li>
+      </ul>
+      <a href="#" class="cta">Continue</a>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ga-b0">Gabo</a>.
+  </div>
+</body>
+</html>
